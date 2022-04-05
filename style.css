@@ -211,6 +211,10 @@ body {
   top: 30px;
   left: -30px;
 }
+.about .bottom .manu .left .inside:hover {
+  width: 620px;
+  height: 420px;
+}
 .about .bottom .manu .right {
   padding-top: 30px;
   padding-left: 30px;

@@ -226,6 +226,10 @@ body {
           position: relative;
           top: 30px;
           left: -30px;
+          &:hover {
+            width: 620px;
+            height: 420px;
+          }
         }
       }
       .right {
