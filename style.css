@@ -26,16 +26,16 @@ body {
   display: flex;
 }
 .hero .nav .spacer {
-  width: 25%;
+  width: 20%;
 }
 .hero .nav .nav-links {
   display: flex;
-  width: 70%;
+  width: 79%;
   background: #edebeb 0% 0% no-repeat padding-box;
   justify-content: space-between;
   padding: 5px;
-  padding-left: 35%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 7.5%;
 }
 .hero .nav .nav-links p {
   text-align: center;
