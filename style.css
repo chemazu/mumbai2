@@ -188,9 +188,9 @@ body {
   left: -30px;
 }
 .about .bottom .manu .right {
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .about .bottom .manu .right .line {
   border-bottom: 2px solid #e26804;
@@ -212,7 +212,7 @@ body {
 }
 .strength .top h3 {
   font: normal normal 600 40px/66px Poppins;
-  color: #E16703;
+  color: #e16703;
 }
 .strength .top p {
   text-align: center;
@@ -230,7 +230,7 @@ body {
 .strength .bottom .stat h3 {
   font: normal normal 800 40px/66px Poppins;
   letter-spacing: 0px;
-  color: #E16703;
+  color: #e16703;
 }
 .strength .bottom .stat p {
   text-align: center;
