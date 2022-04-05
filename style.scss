@@ -78,16 +78,45 @@ body {
     // text-align: center;
     display: flex;
     justify-content: center;
-    .open {
-      display: none;
+    #open {
+      background: #f0eeee;
+      padding: 20px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      border-radius: 20px 20px 0px 0px;
+      color: #707070;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      form {
+        width: 100%;
+
+        div {
+          width: 100%;
+          padding: 5px 0;
+
+          input {
+            width: 100%;
+            padding: 5px 0;
+
+            border: #e1dede;
+          }
+        }
+      }
     }
-    .close {
+    #close {
       display: flex;
       justify-content: center;
       width: 50%;
       padding: 7.5px;
       background: #e1dede 0% 0% no-repeat padding-box;
       border-radius: 20px 20px 0px 0px;
+      &:hover {
+        cursor: pointer;
+      }
       p {
         text-align: left;
         letter-spacing: 1px;

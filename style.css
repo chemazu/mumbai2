@@ -74,10 +74,31 @@ body {
   display: flex;
   justify-content: center;
 }
-.hero .popup .open {
-  display: none;
+.hero .popup #open {
+  background: #f0eeee;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 0px 0px;
+  color: #707070;
 }
-.hero .popup .close {
+.hero .popup #open:hover {
+  cursor: pointer;
+}
+.hero .popup #open form {
+  width: 100%;
+}
+.hero .popup #open form div {
+  width: 100%;
+  padding: 5px 0;
+}
+.hero .popup #open form div input {
+  width: 100%;
+  padding: 5px 0;
+  border: #e1dede;
+}
+.hero .popup #close {
   display: flex;
   justify-content: center;
   width: 50%;
@@ -85,7 +106,10 @@ body {
   background: #e1dede 0% 0% no-repeat padding-box;
   border-radius: 20px 20px 0px 0px;
 }
-.hero .popup .close p {
+.hero .popup #close:hover {
+  cursor: pointer;
+}
+.hero .popup #close p {
   text-align: left;
   letter-spacing: 1px;
   font-size: bolder;

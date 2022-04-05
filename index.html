@@ -6,12 +6,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
     <div class="hero">
@@ -40,9 +40,28 @@
         </div>
       </div>
       <div class="popup">
-        <div class="close"><p>Get a Quote</p></div>
+        <div id="close" onmouseover="myFunction()" > Get a Quote </div>
+        <div id="open" style="display:none;" onmouseleave="myFunction()" >
+          <form>
+            <div class="form-item">
+              <p>Name</p>
+              <input type="text"/>
+            </div>
+            <div class="form-item">
+              <p>Mobile Number</p>
+              <input type="text"/>
+            </div>
+            <div class="form-item">
+              <p>Email</p>
+              <input type="email"/>
+            </div>
+            <div class="form-item">
+              <p>Message</p>
+              <input type="text" style="height:70px ;"/>
+            </div>
+          </form>
+        </div>
         <img src="./img/whatsapp.svg" />
-        <div class="open"></div>
       </div>
     </div>
     <div class="about">
@@ -105,16 +124,16 @@
           <p>Container</p>
         </div>
         <div class="stat">
-          <h3>20,000+</h3>
-          <p>Container</p>
+          <h3>100+</h3>
+          <p>Employees</p>
         </div>
         <div class="stat">
-          <h3>20,000+</h3>
-          <p>Container</p>
+          <h3>50+</h3>
+          <p>Countries</p>
         </div>
         <div class="stat">
-          <h3>20,000+</h3>
-          <p>Container</p>
+          <h3>3</h3>
+          <p>Offices</p>
         </div>
       </div>
     </div>
