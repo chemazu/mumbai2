@@ -226,7 +226,7 @@ body {
 
   background: #000000;
   .top {
-    h3 {
+    h2 {
       font: normal normal 600 40px/66px Poppins;
       color: #e16703;
     }
@@ -261,7 +261,9 @@ body {
 }
 .cert {
   padding: 50px 7.5%;
-  h3 {
+  h2 {
+    font: normal normal 600 40px/66px Poppins;
+
     padding-bottom: 50px;
   }
   div {
@@ -286,5 +288,106 @@ body {
         }
       }
     }
+  }
+}
+.reach {
+  padding: 50px 7.5%;
+  background: url(./img/map.png);
+  background-color: rgba(117, 116, 116, 0.76);
+  height: 400px;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h2 {
+    padding-bottom: 50px;
+    font: normal normal 600 40px/66px Poppins;
+  }
+}
+.events {
+  padding: 50px 7.5%;
+  background: rgba(255, 255, 255, 0.76);
+  h2 {
+    padding-bottom: 50px;
+    font: normal normal 600 40px/66px Poppins;
+  }
+
+  .event-card {
+    background-color: #edebeb;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    .event-image {
+      background: url(./img/event.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .event-content {
+      padding: 20px 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .right {
+        padding: 20px 5%;
+
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+  .dots {
+    padding: 30px 0;
+    .filled {
+      border: 0px;
+      background: #e16703;
+    }
+    .dot {
+      height: 15px;
+      width: 15px;
+      border: 1px solid #e16703;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  }
+}
+.footer {
+  padding: 50px 7.5%;
+  background: #1312129d;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 85%;
+  grid-gap: 10px;
+  div {
+    h4 {
+      color: #e26804;
+      padding: 10px 0;
+    }
+    p {
+      padding: 5px 0;
+    }
+    h1 {
+      padding-top: 100%;
+      font-size: 60px;
+    }
+  }
+  .contact {
+    p {
+      img {
+        width: 10px;
+      }
+    }
+  }
+}
+.bottom-bar {
+  padding: 10px 5%;
+  background: #000000;
+
+  display: flex;
+  align-content: center;
+  img {
+    width: 20px;
+    padding: 0 10px;
   }
 }
