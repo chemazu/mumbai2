@@ -219,6 +219,7 @@ body {
         background-repeat: no-repeat;
         width: 600px;
         height: 400px;
+
         .inside {
           border: 3px solid #e26804;
           width: 600px;
@@ -226,9 +227,11 @@ body {
           position: relative;
           top: 30px;
           left: -30px;
+          transition: all 0.5s ease-in-out;
+
           &:hover {
-            width: 620px;
-            height: 420px;
+            top: 20px;
+            left: -40px;
           }
         }
       }
